@@ -29,7 +29,7 @@ li {
     text-decoration: none;
     list-style: none;
 }
-section.hero {
+.hero {
     background-color: lightgray;
     display: flex;
     justify-content: center;
@@ -86,6 +86,16 @@ section.hero {
 .card img {
     width: 100%;
 }
+.course-small {
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+.show-course {
+    background-color: lightgray;
+    text-align: center;
+    padding: 8px;
+}
 footer {
     width: 100%;
     background-color: whitesmoke;
@@ -103,7 +113,8 @@ footer {
     .infor-left-h {
         height: 0;
         width: 0;
-        color: lightgray;
+        opacity: 0;
+
     }
     .infor-right {
         width: 100%;
@@ -111,16 +122,30 @@ footer {
     .infor-right-h {
         height: 0;
         width: 0;
-        color: white;
+        opacity: 0;
     }
     .banner-hide {
         width: 0;
         height: 0;
+        opacity: 0;
     }
     .text-right {
         flex-direction: column;
     }
     .text-right img {
         width: 100%;
+    }
+    .course {
+        width: 0;
+        height: 0;
+        opacity: 0;
+    }
+    .course-small {
+        opacity: 1;
+        width: 100%;
+    }
+    .thesis {
+        position: relative;
+        top: 300px;
     }
   }
