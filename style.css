@@ -54,7 +54,7 @@ section.hero {
 .information, .thesis {
     display: flex;
 }
-.infor-left {
+.infor-left, .infor-left-h {
     width: 60%;
     padding: 32px 24px;
 }
@@ -95,11 +95,20 @@ footer {
         flex-direction: column;
     }
     .infor-left {
+        width: 100%;
+    }
+    .infor-left-h {
         height: 0;
         width: 0;
+        color: lightgray;
     }
     .infor-right {
         width: 100%;
+    }
+    .infor-right-h {
+        height: 0;
+        width: 0;
+        color: white;
     }
     .banner-hide {
         width: 0;
