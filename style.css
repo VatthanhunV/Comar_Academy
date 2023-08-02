@@ -48,5 +48,21 @@ section.hero {
 .btstart {
     width: 40%;
     background-color: gray;
-    padding: 20px;
+    padding: 16px;
+}
+section.information {
+    display: flex;
+
+}
+.infor-left {
+    width: 60%;
+    padding: 32px 24px;
+}
+.text-right {
+    display: flex;
+    padding: 32px 24px;
+    width: 100%;
+}
+.infor-right-jpg {
+    width: 35%;
 }
